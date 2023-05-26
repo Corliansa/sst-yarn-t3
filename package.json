@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
+    "dev": "sst bind next dev",
     "postinstall": "prisma generate",
     "lint": "next lint",
     "start": "next start"
@@ -32,12 +32,15 @@
     "@typescript-eslint/eslint-plugin": "^5.59.6",
     "@typescript-eslint/parser": "^5.59.6",
     "autoprefixer": "^10.4.14",
+    "aws-cdk-lib": "2.79.1",
+    "constructs": "10.1.156",
     "eslint": "^8.40.0",
     "eslint-config-next": "^13.4.2",
     "postcss": "^8.4.21",
     "prettier": "^2.8.8",
     "prettier-plugin-tailwindcss": "^0.2.8",
     "prisma": "^4.14.0",
+    "sst": "^2.10.4",
     "tailwindcss": "^3.3.0",
     "typescript": "^5.0.4"
   },
